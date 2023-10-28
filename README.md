@@ -1,5 +1,5 @@
 # in-class
-<p>[java][html]자바 풀스택 3기 Ⅰ <br>
+<p>[Java][HTML/CSS] 자바 풀스택 3기 Ⅰ <br>
   2023년 하반기 천재교육 IT 자바 풀스택 과정
 </p>
 <br>
