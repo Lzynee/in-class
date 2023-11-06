@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Child and Descendant Selector</title>
+    <style>
+      .box p {
+        color: red;
+      }
+      .box > p::after {
+        content: "★";
+        color: skyblue;
+      }
+      p::before {
+        content: "★";
+        color: lightblue;
+      }
+      li {
+        list-style: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <p>lorem 1</p>
+      <ul>
+        <li><p>lorem 2</p></li>
+        <li><p>lorem 3</p></li>
+      </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <style>
+      /* 내부 스타일 시트로 css 적용하기 */
+      * {
+        color: red;
+      }
+
+      p {
+        color: blue; /* !important를 사용한 속성을 강제로 최우선 적용*/
+      }
+
+      #title {
+        color: green;
+        font-size: 20px;
+      }
+      .red {
+        color: red;
+      }
+      .blue {
+        color: blue;
+      }
+      a[href] {
+        color: limegreen;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>전체 선택자</h1>
+    <p>전체 선택자의 모든 요소를 한 번에 선택할 수 있습니다.</p>
+    <h1 class="red">클래스 선택자</h1>
+    <p class="blue">class 속성값으로 선택자를 지정</p>
+    <p class="blue">class 속성은 id 속성과 달리 여러 번 사용할 수 있다.</p>
+    <a href="#">기본 a 태그</a>
+    <a href="#" target="_blank">새 창으로 열리는 a 태그</a>
+  </body>
+</html>
