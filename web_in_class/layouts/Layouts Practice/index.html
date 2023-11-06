@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Layouts Practice</title>
+  </head>
+  <body>
+    <!-- section for #position -->
+    <!-- 각 섹션은 섹션의 이름을 표시하는 header와 내용물을 담는 container로 구성됨 -->
+    <div class="section" id="position">
+      <div class="header">
+        <p><h1>Position</h1></p>
+      </div>
+      <div class="container">
+        <!-- 도형 요소들을 .forms 클래스로 지정 ==> 테두리 서식을 일괄 적용 -->
+        <div class="forms" id="yellowBox">  <!-- 노란색 직사각형 -->
+          <div class="forms " id="blueSquare"></div>  <!-- 파란색 정사각형 -->
+          <div class="forms " id="redCircle"></div>  <!-- 빨간색 원 -->
+        </div>
+      </div>
+    </div>
+    <!-- #position 섹션 끝 -->
+    <!-- section for #flexbox -->
+    <div class="section" id="flexbox">
+      <div class="header">
+        <p><h1>Flexbox</h1></p>
+      </div>
+      <div class="container">
+        <!-- 전체 틀이 될 그리드 컨테이너 -->
+        <div class="grid-container">
+          <!-- 총 1행 4열, 각 셀에 알파벳 삽입 -->
+          <div class="grid-item item1"><p>A</p></div>
+          <div class="grid-item item2"><p>B</p></div>
+          <div class="grid-item item3"><p>C</p></div>
+          <div class="grid-item item4"><p>D</p></div>
+        </div>
+      </div>
+    </div>
+    <!-- #flexbox 섹션 끝 -->
+    <!-- section for #grid -->
+    <div class="section" id="grid">
+        <div class="header">
+            <p><h1>Grid</h1></p>
+          </div>
+      <div class="container">
+        <div class="grid-container">
+          <!-- A~G까지 총 7개의 셀로 구성, 셀 안에는 텍스트 요소 -->
+          <div class="grid-item" id="cell-A">
+            <p id="p-1">A</p>
+          </div>
+          <div class="grid-item" id="cell-B">
+            <p id="p-2">B</p>
+          </div>
+          <div class="grid-item" id="cell-C">
+            <p id="p-3">C</p>
+          </div>
+          <div class="grid-item" id="cell-D">
+            <p id="p-4">D</p>
+          </div>
+          <div class="grid-item" id="cell-E">
+            <p id="p-5">E</p>
+          </div>
+          <div class="grid-item" id="cell-F">
+            <p id="p-6">F</p>
+          </div>
+          <div class="grid-item" id="cell-G">
+            <p id="p-7">G</p>
+          </div>      
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
